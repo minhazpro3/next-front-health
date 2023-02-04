@@ -10,7 +10,7 @@ const Navigation = () => {
               <a href="#">
                 <span className="sr-only">Workflow</span>
                 <h4 className="text-xl font-normal leading-8">
-                  <span className="bg-[#6765F0] rounded-2xl font-grotesque  text-white px-4 py-3">
+                  <span className="bg-[#6765F0] rounded-2xl font-grotesque  text-white px-3 py-3">
                     Gym{" "}
                   </span>{" "}
                   <span className=" font-grotesque ml-1">baran</span>

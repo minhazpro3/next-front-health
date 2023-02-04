@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     fontFamily: {
       poppins: ["Poppins ", "sans-serif"],
-      grotesque: ["Grotesque", "sans-serif"],
+      grotesque: ["Amaranth", "sans-serif"],
     },
     extend: {},
   },
