@@ -25,7 +25,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Navigation />
-        <div className="my-2">
+        <div className="mb-2 bg-[#fcf6ff]">
           <Home_main   />
         </div>
       </main>

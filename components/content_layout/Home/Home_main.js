@@ -6,7 +6,7 @@ import Our_perform from "./Our_perform";
 
 const Home_main = () => {
   return (
-    <div className="  container mx-auto px-6 md:px-0">
+    <div className="  container mx-auto px-6 md:px-0 ">
       <Banner />
       <Home_about />
       <Our_perform />
