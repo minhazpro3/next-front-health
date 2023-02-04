@@ -25,7 +25,9 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Navigation />
-        <Home_main />
+        <div className="my-2">
+          <Home_main   />
+        </div>
       </main>
     </>
   );

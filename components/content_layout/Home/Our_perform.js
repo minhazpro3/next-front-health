@@ -6,7 +6,8 @@ import { GiHalfBodyCrawling } from "react-icons/gi";
 
 const Our_perform = () => {
   return (
-    <div className="bg-gradient-to-r from-indigo-500 to-indigo-300 rounded-[2rem] p-20 mt-28  ">
+  <div className="my-16">
+      <div className="bg-gradient-to-r from-indigo-500 to-indigo-300 rounded-[2rem] p-20 mt-28   ">
       <div className="grid grid-cols-1 gap-8 md:grid md:grid-cols-3 md:gap-5   content-center">
         {/* card 1 */}
         <div className="flex justify-center ">
@@ -58,6 +59,7 @@ const Our_perform = () => {
         </div>
       </div>
     </div>
+  </div>
   );
 };
 
