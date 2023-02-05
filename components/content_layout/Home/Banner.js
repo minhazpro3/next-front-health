@@ -16,7 +16,7 @@ import { GiBodyBalance } from "react-icons/gi";
 
 const Banner = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-7 items-center  md:pt-16  mb-24">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-7 items-center pt-12 md:pt-16  mb-24">
       {/* banner left section */}
       <div>
         <div>
