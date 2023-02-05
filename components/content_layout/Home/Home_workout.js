@@ -106,18 +106,20 @@ const Home_workout = () => {
             <Image className="relative" src={workout} alt="workout image" />
           </div>
 
-          <div className="absolute bottom-2 md:bottom-12 -left-4 md:left-6 bg-white px-7 shadow-2xl py-2 rounded-xl">
+          <div className="absolute bottom-2 md:bottom-12 w-[117px] h-[46px] md:w-[203px] md:h-[80px] -left-4 md:left-6 bg-white  shadow-2xl py-2 rounded-md">
             <div>
-              <div className="flex items-center gap-5">
-                <h3 className="p-2 md:p-4 bg-gradient-to-r from-blue-700  rounded-full   to-blue-400   text-3xl text-white">
+              <div className="flex items-center justify-center gap-3  ">
+                <h3 className="p-2 md:p-4 bg-gradient-to-r from-indigo-500  rounded-full   to-indigo-200 text-xs   md:text-3xl text-white">
                   <BiBody />
                 </h3>
-                <h3 className="text-[9px] md:text-base font-bold font-poppins">
-                  800 kall <br />
-                  <span className=" text-[6px] md:text-xs font-poppins">
+                <div>
+                  <h3 className="text-[9px] md:text-base font-poppins font-bold">
+                    800 kall
+                  </h3>
+                  <p className="text-[7px] md:text-xs font-poppins font-bold opacity-50">
                     Burn fat
-                  </span>
-                </h3>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
