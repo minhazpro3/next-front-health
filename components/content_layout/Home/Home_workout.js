@@ -10,8 +10,9 @@ import { GiHalfBodyCrawling } from "react-icons/gi";
 
 const Home_workout = () => {
   return (
-    <div className="  ">
+    <div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
+        {/* workout section left */}
         <div className="md:order-last">
           <h3 className=" text-3xl md:text-5xl font-bold font-grotesque tracking-wide">
             Best full body workout to lose fat
@@ -36,9 +37,14 @@ const Home_workout = () => {
           </button>
         </div>
 
+        {/* workout section right */}
+
         <div className="relative h-300px   md:h-[500px] flex justify-center ">
+          {/* workout bg shape */}
           <div className="bg-[#DBDFFF] rounded-full absolute top-16   md:top-12 w-[150px] h-[150px] md:w-[300px] md:h-[300px] -right-1 md:right-20"></div>
           <div className="bg-[#D697DE] rounded-full md:ml-6 bottom-3 md:bottom-2 absolute w-[150px] h-[150px] md:w-[300px] md:h-[300px] -left-1 md:left-16"></div>
+
+          {/* wave bg border */}
           <div className="absolute -right-2 md:right-[70px] top-10  md:top-20 ">
             <div className="relative  w-[116px] md:w-[300px] h-[10px] md:h-rem ">
               <Image src={wave} fill alt="border" />
@@ -102,10 +108,12 @@ const Home_workout = () => {
             </div>
           </div>
 
+          {/* workout main image */}
           <div className=" w-[240px] md:w-[415px] h-[286px] md:h-[496px]">
             <Image className="relative" src={workout} alt="workout image" />
           </div>
 
+          {/* workout left bottom card */}
           <div className="absolute bottom-2 md:bottom-12 w-[117px] h-[46px] md:w-[203px] md:h-[80px] -left-4 md:left-6 bg-white  shadow-2xl py-2 rounded-md">
             <div>
               <div className="flex items-center justify-center gap-3  ">
@@ -123,11 +131,15 @@ const Home_workout = () => {
               </div>
             </div>
           </div>
+
+          {/* work out left icon */}
           <div className="absolute top-4 md:top-7 left-7 md:left-36 ">
             <h3 className=" text-3xl text-white bg-white bg-gradient-to-r from-fuchsia-400 to-fuchisia-50 p-2 md:p-3 rounded-full z-10 opacity-100">
               <GiBodyBalance />
             </h3>
           </div>
+
+          {/* workout right icon */}
           <div className="absolute top-[40%] md:top-44 -right-5 md:right-7">
             <h3 className="text-3xl text-white bg-white bg-gradient-to-r from-blue-400 to-blue-50 p-2 md:p-3 rounded-full z-10 opacity-100">
               <GiHalfBodyCrawling />

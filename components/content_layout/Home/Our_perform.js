@@ -9,7 +9,7 @@ const Our_perform = () => {
     <div className="my-16">
       <div className="bg-gradient-to-r from-indigo-500 to-indigo-300 rounded-[2rem]  px-2 py-8 md:px-20 md:py-20 mt-28   ">
         <div className="grid grid-cols-1 gap-8 md:grid md:grid-cols-3 md:gap-5   content-center">
-          {/* card 1 */}
+          {/* card details 1 */}
           <div className="flex justify-center ">
             <div className="flex items-center gap-4 ">
               <h3 className="text-base md:text-4xl bg-[#8987f2] text-white p-5 rounded-[20px]">
@@ -25,7 +25,7 @@ const Our_perform = () => {
               </div>
             </div>
           </div>
-          {/* card 2 */}
+          {/* card details 2  */}
           <div className="flex justify-center ">
             <div className="flex items-center gap-4 ">
               <h3 className="text-base md:text-4xl bg-[#8987f2] text-white p-5 rounded-[20px]">
@@ -41,7 +41,7 @@ const Our_perform = () => {
               </div>
             </div>
           </div>
-          {/* card 3 */}
+          {/* card details 3 */}
           <div className="flex justify-center ">
             <div className="flex items-center gap-4 ">
               <h3 className="text-base md:text-4xl bg-[#8987f2] text-white p-5 rounded-[20px]">

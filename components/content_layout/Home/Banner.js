@@ -16,10 +16,11 @@ import { GiBodyBalance } from "react-icons/gi";
 
 const Banner = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-7 items-center  pt-2 mb-24">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-7 items-center  md:pt-16  mb-24">
+      {/* banner left section */}
       <div>
         <div>
-          <h3 className="text-3xl md:text-[3.5rem] leading-[4.5rem] md:w-[568px] font-grotesque tracking-wide">
+          <h3 className="text-3xl md:text-[3.5rem] md:leading-[4.5rem] md:w-[568px] md:h-[150px] font-grotesque tracking-wide">
             Health in side <br />{" "}
             <span className="text-[#8382eb] ">fresh </span> out side{" "}
           </h3>
@@ -47,6 +48,7 @@ const Banner = () => {
           </button>
         </div>
 
+        {/* brands logo section */}
         <div className="mt-10 ">
           <h6 className="mb-6 text-xs md:text-base font-poppins">Brands:</h6>
           <div className="flex justify-around items-center gap-2 mb-16">
@@ -66,9 +68,12 @@ const Banner = () => {
         </div>
       </div>
 
+      {/*banner right section */}
+
       <div className="relative h-[350px] md:h-[582px] flex justify-center">
         <div className="bg-[#DBDFFF] rounded-full absolute bottom-8 md:bottom-10 left-3 md:left-16 w-[200px]  h-[200px]  md:w-[350px] md:h-[350px]  "></div>
 
+        {/* wave bg border */}
         <div className="absolute bottom-8 md:bottom-12 left-1 md:left-12">
           <div className="relative  w-[116px] md:w-[300px] h-[8px] md:h-[13px] ">
             <Image src={wave} fill alt="border" />
@@ -162,7 +167,7 @@ const Banner = () => {
 
         {/* bottom left icon */}
 
-        <div className="absolute bottom-10 md:bottom-20 -left-6">
+        <div className="absolute bottom-10 md:bottom-24 -left-6 md:-left-1 ">
           <h3 className="text-xl md:text-3xl text-white bg-white bg-gradient-to-r from-indigo-400 to-indigo-50 p-3 md:p-4 rounded-full z-10 opacity-100">
             <GiHalfBodyCrawling />
           </h3>
